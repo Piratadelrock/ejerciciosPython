@@ -1,10 +1,10 @@
-# convertir decimal a hexadecimal y viceversa
+# primer ejercicio creado en python: convertir decimal a hexadecimal y viceversa
 
 # recibir variables que contienen
 # decimales iguales o menores a 2^31 
 # la linea que contiene un numero decimal negativo termina la ejecucion
 # S={0,1,2,3,4,5,6,7,8,9,{mathrm  {A}},{mathrm  {B}},{mathrm  {C}},{mathrm  {D}},{mathrm  {E}},{mathrm  {F}}}
-# TODO: VALIDAR QUE EL HEXADECIMAL NO SEA VALIDO EN DIFERENTES CARACTERES  hexa is not None and
+
 
 def dechex(decimal):
     if decimal.isdigit():
@@ -39,15 +39,3 @@ def dechexadec():
     else: print("Numero hexadecimal o decimal no validos")
 
 dechexadec()
-
-
-
-
-        # if hexa.isdigit():
-        #     print( "El numero hexadecimal es digito")
-        # elif hexa.isalpha():
-        #     print("El numero hexadecimal es alpha")
-        # elif hexa.isalnum():
-        #     print("El numero hexadecimal es alphanumero")
-        # else:
-        #     return "ninguno"
